@@ -44,11 +44,10 @@
 
 ### Frontend
 ```
-🎨 Framework: Angular 17 + NgRx
+🎨 Framework: Angular 19 + NgRx
 🎯 State Management: NgRx Store/Effects
 💅 Styling: Tailwind CSS + Angular Material
 📱 Responsive: Mobile-first design approach
-🔄 Real-time: WebSocket integration
 ```
 
 ### Backend
@@ -56,14 +55,13 @@
 ☕ Framework: Spring Boot 3.x
 🔐 Security: Spring Security + JWT
 🗄️ Database: PostgreSQL 15+
-📡 API: RESTful with OpenAPI/Swagger
-🚀 WebSocket: Real-time notifications
+📡 API: RESTful with OpenAPI
 ```
 
 ### DevOps & Tools
 ```
 🐳 Containerization: Docker + Docker Compose
-📋 API Docs: Swagger/OpenAPI 3.0
+📋 API Docs: OpenAPI 3.0
 🧪 Testing: Jest + JUnit + Testcontainers
 🔄 CI/CD: GitHub Actions ready
 ```
@@ -93,8 +91,6 @@
 - **Spring Boot Backend:** Provides secure REST APIs and business logic
 - **PostgreSQL Database:** Stores all application data with ACID compliance
 - **JWT Authentication:** Stateless security for scalability
-- **WebSocket Integration:** Real-time notifications and updates
-
 ---
 
 ## 📂 Project Structure
@@ -136,11 +132,6 @@ smart-doc/
 │   │       └── 📁 db/migration/    # Database migrations
 │   ├── 📄 pom.xml
 │   └── 📄 Dockerfile
-│
-├── 📁 database/                    # Database Scripts
-│   ├── 📁 migrations/              # Flyway migrations
-│   ├── 📁 seeds/                   # Sample data
-│   └── 📁 indexes/                 # Performance indexes
 │
 ├── 📁 docs/                        # Documentation
 │   ├── 📄 API.md                   # API documentation
@@ -267,12 +258,6 @@ curl -X POST http://localhost:8080/api/v1/auth/register \
     "password": "SecurePassword123",
     "role": "PATIENT"
   }'
-```
-
-**Doctor Search:**
-```bash
-curl -X GET "http://localhost:8080/api/v1/doctors/search?specialty=cardiology&location=New York&available=true" \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN"
 ```
 
 **Book Appointment:**
