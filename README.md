@@ -35,10 +35,7 @@
 | 🔍 **Advanced Doctor Search** | Filter by specialty, location, insurance, ratings, and availability |
 | 📅 **Real-time Booking** | Instant appointment scheduling with calendar integration |
 | 👩‍⚕️ **Comprehensive Profiles** | Detailed doctor information with credentials and patient reviews |
-| 🔔 **Smart Notifications** | Automated reminders via email, SMS, and push notifications |
-| 🗂️ **Practice Management** | Complete suite of tools for healthcare professionals |
-| 🔒 **Secure & HIPAA Compliant** | Enterprise-grade security for sensitive medical data |
-| 💬 **Patient Reviews** | Transparent rating system for informed decision making |
+| 🔔 **Smart Notifications** | Automated reminders via email |
 | 📱 **Multi-platform Support** | Web, mobile, and tablet optimized experience |
 
 ---
